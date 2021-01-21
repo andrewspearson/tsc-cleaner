@@ -14,7 +14,7 @@ $ git clone https://github.com/andrewspearson/tsc-cleaner /usr/local/bin/tsc-cle
 ## Usage
 View the help menu
 ```
-$ python3 tsc-cleaner.py -h
+$ tsc-cleaner.py -h
 
 usage: tsc-cleaner.py [-h] file
 
@@ -39,7 +39,7 @@ $ cat ips.txt
 ```
 Run the script
 ```
-$ python3 tsc-cleaner.py ips.txt 
+$ tsc-cleaner.py ips.txt 
 
 Created file clear_ips.nessus. Upload this file to Tenable.SC as a manual scan import to delete the specified IPs. The "Immediately remove vulnerabilities from scanned hosts that do not reply" option must be enabled. Use at your own risk. This action cannot be reversed.
 ```
