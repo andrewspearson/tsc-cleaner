@@ -45,7 +45,7 @@ Created file clear_ips.nessus. Upload this file to Tenable.SC as a manual scan i
 ```
 Manually upload the clear_ips.nessus file to Tenable.SC
 
-![scan-upload](screenshots/scan-upload.png)
+![scan-upload](https://andrewspearson.github.io/file-server/repositories/tsc-cleaner/scan-upload.png)
 
 ## Results
 * Query Tenable.SC Vulnerability Analysis to determine if the expected IPs were cleared.
